@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Luck Dice</title>
+  </head>
+  <body>
+    <header>
+      <img class="img-dice" src="./assets/dados.png" alt="imagem dados" />
+      <h1>Luck <span>Dice</span></h1>
+    </header>
+    <main>
+      <label for="">Número Inicial</label>
+      <input class="numero__inicial" type="number" placeholder="xx" />
+      <label for="">Número Final</label>
+      <input class="numero__final" type="number" placeholder="xx" />
+      <button class="btn__sortear" onclick="sortear()">Sortear</button>
+      <div class="resultado">
+        <label for="">Número sorteado</label>
+        <p class="numero__resultado">RESULTADO</p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;Todos os direitos reservados para Luck Dice</p>
+    </footer>
+  </body>
+</html>
